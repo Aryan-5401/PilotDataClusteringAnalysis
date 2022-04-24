@@ -1,0 +1,334 @@
+<QuestionForm xmlns='http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd'>  
+  <Overview>
+    <Title>Demographics - Qualification Test</Title>
+    <FormattedContent><![CDATA[
+    <h1> Instructions </h1>
+    <p>Please answer these 12 demographic questions.</p>
+    ]]></FormattedContent>
+  </Overview>
+
+  <Question>
+      <QuestionIdentifier>q_1</QuestionIdentifier>
+      <DisplayName>Q1</DisplayName>
+      <IsRequired>true</IsRequired>
+      <QuestionContent>
+        <FormattedContent><![CDATA[
+          <p>With what gender do you identify?</p>
+        ]]></FormattedContent>
+      </QuestionContent>
+      <AnswerSpecification>
+        <SelectionAnswer>
+          <StyleSuggestion>radiobutton</StyleSuggestion>
+          <Selections>
+            <Selection>
+              <SelectionIdentifier>0</SelectionIdentifier>
+              <Text>Woman</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>1</SelectionIdentifier>
+              <Text>Man</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>2</SelectionIdentifier>
+              <Text>Transgender</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>3</SelectionIdentifier>
+              <Text>Non-binary / non-conforming</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>4</SelectionIdentifier>
+              <Text>Other</Text>
+            </Selection>
+          </Selections>
+        </SelectionAnswer>
+      </AnswerSpecification>
+  </Question>
+
+  <Question>
+      <QuestionIdentifier>q_2</QuestionIdentifier>
+      <DisplayName>Q2</DisplayName>
+      <IsRequired>true</IsRequired>
+      <QuestionContent>
+        <FormattedContent><![CDATA[
+          <p>What is your age?</p>
+        ]]></FormattedContent>
+      </QuestionContent>
+      <AnswerSpecification>
+        <SelectionAnswer>
+          <StyleSuggestion>radiobutton</StyleSuggestion>
+          <Selections>
+            <Selection>
+              <SelectionIdentifier>0</SelectionIdentifier>
+              <Text>0 - 17 years old</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>1</SelectionIdentifier>
+              <Text>18 - 22 years old</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>2</SelectionIdentifier>
+              <Text>22 - 30 years old</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>3</SelectionIdentifier>
+              <Text>30 - 45 years old</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>4</SelectionIdentifier>
+              <Text>45+</Text>
+            </Selection>
+          </Selections>
+        </SelectionAnswer>
+      </AnswerSpecification>
+  </Question>
+
+  <Question>
+      <QuestionIdentifier>q_3</QuestionIdentifier>
+      <DisplayName>Q3</DisplayName>
+      <IsRequired>true</IsRequired>
+      <QuestionContent>
+        <FormattedContent><![CDATA[
+          <p>Which best describes your race or ethnicity?</p>
+        ]]></FormattedContent>
+      </QuestionContent>
+      <AnswerSpecification>
+        <SelectionAnswer>
+          <StyleSuggestion>radiobutton</StyleSuggestion>
+          <Selections>
+            <Selection>
+              <SelectionIdentifier>0</SelectionIdentifier>
+              <Text>African-American / Black</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>1</SelectionIdentifier>
+              <Text>Asian</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>2</SelectionIdentifier>
+              <Text>Latino or Hispanic</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>3</SelectionIdentifier>
+              <Text>Native American</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>4</SelectionIdentifier>
+              <Text>Native Hawaiian or Pacific Islander</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>5</SelectionIdentifier>
+              <Text>White / Caucasian</Text>
+            </Selection>
+          </Selections>
+        </SelectionAnswer>
+      </AnswerSpecification>
+  </Question>
+
+  <Question>
+      <QuestionIdentifier>q_4</QuestionIdentifier>
+      <DisplayName>Q4</DisplayName>
+      <IsRequired>true</IsRequired>
+      <QuestionContent>
+        <FormattedContent><![CDATA[
+          <p>In which continent are you located?</p>
+        ]]></FormattedContent>
+      </QuestionContent>
+      <AnswerSpecification>
+        <SelectionAnswer>
+          <StyleSuggestion>radiobutton</StyleSuggestion>
+          <Selections>
+            <Selection>
+              <SelectionIdentifier>0</SelectionIdentifier>
+              <Text>North America</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>1</SelectionIdentifier>
+              <Text>Central / South America</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>2</SelectionIdentifier>
+              <Text>Europe</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>3</SelectionIdentifier>
+              <Text>Africa</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>4</SelectionIdentifier>
+              <Text>Asia</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>5</SelectionIdentifier>
+              <Text>Australia</Text>
+            </Selection>
+          </Selections>
+        </SelectionAnswer>
+      </AnswerSpecification>
+  </Question>
+
+  <Question>
+      <QuestionIdentifier>q_5</QuestionIdentifier>
+      <DisplayName>Q5</DisplayName>
+      <IsRequired>true</IsRequired>
+      <QuestionContent>
+        <FormattedContent><![CDATA[
+          <p>What is your highest level of education?</p>
+        ]]></FormattedContent>
+      </QuestionContent>
+      <AnswerSpecification>
+        <SelectionAnswer>
+          <StyleSuggestion>radiobutton</StyleSuggestion>
+          <Selections>
+            <Selection>
+              <SelectionIdentifier>0</SelectionIdentifier>
+              <Text>Some High School, No Diploma</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>1</SelectionIdentifier>
+              <Text>High School Diploma</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>2</SelectionIdentifier>
+              <Text>Associate's Degree / Trade School</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>3</SelectionIdentifier>
+              <Text>Bachelor's Degree</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>4</SelectionIdentifier>
+              <Text>Master's Degree</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>5</SelectionIdentifier>
+              <Text>Doctorate Degree</Text>
+            </Selection>
+          </Selections>
+        </SelectionAnswer>
+      </AnswerSpecification>
+  </Question>
+
+  <Question>
+      <QuestionIdentifier>q_6</QuestionIdentifier>
+      <DisplayName>Q6</DisplayName>
+      <IsRequired>true</IsRequired>
+      <QuestionContent>
+        <FormattedContent><![CDATA[
+          <p>What is your marital status?</p>
+        ]]></FormattedContent>
+      </QuestionContent>
+      <AnswerSpecification>
+        <SelectionAnswer>
+          <StyleSuggestion>radiobutton</StyleSuggestion>
+          <Selections>
+            <Selection>
+              <SelectionIdentifier>0</SelectionIdentifier>
+              <Text>Single, never married</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>1</SelectionIdentifier>
+              <Text>Married or domestic partnership</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>2</SelectionIdentifier>
+              <Text>Widowed</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>3</SelectionIdentifier>
+              <Text>Divorced</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>4</SelectionIdentifier>
+              <Text>Separated</Text>
+            </Selection>
+          </Selections>
+        </SelectionAnswer>
+      </AnswerSpecification>
+  </Question>
+
+  <Question>
+      <QuestionIdentifier>q_7</QuestionIdentifier>
+      <DisplayName>Q7</DisplayName>
+      <IsRequired>true</IsRequired>
+      <QuestionContent>
+        <FormattedContent><![CDATA[
+          <p>Which of the following would you consider your native language?</p>
+        ]]></FormattedContent>
+      </QuestionContent>
+      <AnswerSpecification>
+        <SelectionAnswer>
+          <StyleSuggestion>radiobutton</StyleSuggestion>
+          <Selections>
+            <Selection>
+              <SelectionIdentifier>0</SelectionIdentifier>
+              <Text>English</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>1</SelectionIdentifier>
+              <Text>Spanish</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>2</SelectionIdentifier>
+              <Text>Mandarin</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>3</SelectionIdentifier>
+              <Text>French</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>4</SelectionIdentifier>
+              <Text>Arabic</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>5</SelectionIdentifier>
+              <Text>Other</Text>
+            </Selection>
+          </Selections>
+        </SelectionAnswer>
+      </AnswerSpecification>
+  </Question>
+
+  <Question>
+      <QuestionIdentifier>q_8</QuestionIdentifier>
+      <DisplayName>Q8</DisplayName>
+      <IsRequired>true</IsRequired>
+      <QuestionContent>
+        <FormattedContent><![CDATA[
+          <p>If applicable, please specify your religion.</p>
+        ]]></FormattedContent>
+      </QuestionContent>
+      <AnswerSpecification>
+        <SelectionAnswer>
+          <StyleSuggestion>radiobutton</StyleSuggestion>
+          <Selections>
+            <Selection>
+              <SelectionIdentifier>0</SelectionIdentifier>
+              <Text>Catholicism/Christianity</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>1</SelectionIdentifier>
+              <Text>Judaism</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>2</SelectionIdentifier>
+              <Text>Islam</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>3</SelectionIdentifier>
+              <Text>Buddhism</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>4</SelectionIdentifier>
+              <Text>Hinduism</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>5</SelectionIdentifier>
+              <Text>Other</Text>
+            </Selection>
+          </Selections>
+        </SelectionAnswer>
+      </AnswerSpecification>
+  </Question>
+
+</QuestionForm>

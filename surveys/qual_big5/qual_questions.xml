@@ -1,0 +1,400 @@
+<QuestionForm xmlns='http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd'>  
+  <Overview>
+    <Title>Personality - Qualification Test</Title>
+    <FormattedContent><![CDATA[
+    <h1> Instructions </h1>
+    <p>Please answer 10 questions about yourself.</p>
+    ]]></FormattedContent>
+  </Overview>
+
+  <Question>
+      <QuestionIdentifier>q_1</QuestionIdentifier>
+      <DisplayName>Q1</DisplayName>
+      <IsRequired>true</IsRequired>
+      <QuestionContent>
+        <FormattedContent><![CDATA[
+          <p>I see myself as someone who...</p>
+          <p><b>Does a thorough job</b></p>
+        ]]></FormattedContent>
+      </QuestionContent>
+      <AnswerSpecification>
+        <SelectionAnswer>
+          <StyleSuggestion>radiobutton</StyleSuggestion>
+          <Selections>
+            <Selection>
+              <SelectionIdentifier>0</SelectionIdentifier>
+              <Text>[-2]: Strongly disagree</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>1</SelectionIdentifier>
+              <Text>[-1]: Disagree</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>2</SelectionIdentifier>
+              <Text>[0]: Neutral</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>3</SelectionIdentifier>
+              <Text>[1]: Agree</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>4</SelectionIdentifier>
+              <Text>[2]: Strongly agree</Text>
+            </Selection>
+          </Selections>
+        </SelectionAnswer>
+      </AnswerSpecification>
+  </Question>
+
+  <Question>
+      <QuestionIdentifier>q_2</QuestionIdentifier>
+      <DisplayName>Q2</DisplayName>
+      <IsRequired>true</IsRequired>
+      <QuestionContent>
+        <FormattedContent><![CDATA[
+          <p>I see myself as someone who...</p>
+          <p><b>Is reserved</b></p>
+        ]]></FormattedContent>
+      </QuestionContent>
+      <AnswerSpecification>
+        <SelectionAnswer>
+          <StyleSuggestion>radiobutton</StyleSuggestion>
+          <Selections>
+            <Selection>
+              <SelectionIdentifier>0</SelectionIdentifier>
+              <Text>[-2]: Strongly disagree</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>1</SelectionIdentifier>
+              <Text>[-1]: Disagree</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>2</SelectionIdentifier>
+              <Text>[0]: Neutral</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>3</SelectionIdentifier>
+              <Text>[1]: Agree</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>4</SelectionIdentifier>
+              <Text>[2]: Strongly agree</Text>
+            </Selection>
+          </Selections>
+        </SelectionAnswer>
+      </AnswerSpecification>
+  </Question>
+
+  <Question>
+      <QuestionIdentifier>q_3</QuestionIdentifier>
+      <DisplayName>Q3</DisplayName>
+      <IsRequired>true</IsRequired>
+      <QuestionContent>
+        <FormattedContent><![CDATA[
+          <p>I see myself as someone who...</p>
+          <p><b>Is outgoing, sociable</b></p>
+        ]]></FormattedContent>
+      </QuestionContent>
+      <AnswerSpecification>
+        <SelectionAnswer>
+          <StyleSuggestion>radiobutton</StyleSuggestion>
+          <Selections>
+            <Selection>
+              <SelectionIdentifier>0</SelectionIdentifier>
+              <Text>[-2]: Strongly disagree</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>1</SelectionIdentifier>
+              <Text>[-1]: Disagree</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>2</SelectionIdentifier>
+              <Text>[0]: Neutral</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>3</SelectionIdentifier>
+              <Text>[1]: Agree</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>4</SelectionIdentifier>
+              <Text>[2]: Strongly agree</Text>
+            </Selection>
+          </Selections>
+        </SelectionAnswer>
+      </AnswerSpecification>
+  </Question>
+
+<Question>
+      <QuestionIdentifier>q_4</QuestionIdentifier>
+      <DisplayName>Q4</DisplayName>
+      <IsRequired>true</IsRequired>
+      <QuestionContent>
+        <FormattedContent><![CDATA[
+          <p>I see myself as someone who...</p>
+          <p><b>Gets nervous easily</b></p>
+        ]]></FormattedContent>
+      </QuestionContent>
+      <AnswerSpecification>
+        <SelectionAnswer>
+          <StyleSuggestion>radiobutton</StyleSuggestion>
+          <Selections>
+            <Selection>
+              <SelectionIdentifier>0</SelectionIdentifier>
+              <Text>[-2]: Strongly disagree</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>1</SelectionIdentifier>
+              <Text>[-1]: Disagree</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>2</SelectionIdentifier>
+              <Text>[0]: Neutral</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>3</SelectionIdentifier>
+              <Text>[1]: Agree</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>4</SelectionIdentifier>
+              <Text>[2]: Strongly agree</Text>
+            </Selection>
+          </Selections>
+        </SelectionAnswer>
+      </AnswerSpecification>
+  </Question>
+
+<Question>
+      <QuestionIdentifier>q_5</QuestionIdentifier>
+      <DisplayName>Q5</DisplayName>
+      <IsRequired>true</IsRequired>
+      <QuestionContent>
+        <FormattedContent><![CDATA[
+          <p>I see myself as someone who...</p>
+          <p><b>Has few artistic interests</b></p>
+        ]]></FormattedContent>
+      </QuestionContent>
+      <AnswerSpecification>
+        <SelectionAnswer>
+          <StyleSuggestion>radiobutton</StyleSuggestion>
+          <Selections>
+            <Selection>
+              <SelectionIdentifier>0</SelectionIdentifier>
+              <Text>[-2]: Strongly disagree</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>1</SelectionIdentifier>
+              <Text>[-1]: Disagree</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>2</SelectionIdentifier>
+              <Text>[0]: Neutral</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>3</SelectionIdentifier>
+              <Text>[1]: Agree</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>4</SelectionIdentifier>
+              <Text>[2]: Strongly agree</Text>
+            </Selection>
+          </Selections>
+        </SelectionAnswer>
+      </AnswerSpecification>
+  </Question>
+
+<Question>
+      <QuestionIdentifier>q_6</QuestionIdentifier>
+      <DisplayName>Q6</DisplayName>
+      <IsRequired>true</IsRequired>
+      <QuestionContent>
+        <FormattedContent><![CDATA[
+          <p>I see myself as someone who...</p>
+          <p><b>Is relaxed, handles stress well</b></p>
+        ]]></FormattedContent>
+      </QuestionContent>
+      <AnswerSpecification>
+        <SelectionAnswer>
+          <StyleSuggestion>radiobutton</StyleSuggestion>
+          <Selections>
+            <Selection>
+              <SelectionIdentifier>0</SelectionIdentifier>
+              <Text>[-2]: Strongly disagree</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>1</SelectionIdentifier>
+              <Text>[-1]: Disagree</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>2</SelectionIdentifier>
+              <Text>[0]: Neutral</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>3</SelectionIdentifier>
+              <Text>[1]: Agree</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>4</SelectionIdentifier>
+              <Text>[2]: Strongly agree</Text>
+            </Selection>
+          </Selections>
+        </SelectionAnswer>
+      </AnswerSpecification>
+  </Question>
+
+<Question>
+      <QuestionIdentifier>q_7</QuestionIdentifier>
+      <DisplayName>Q7</DisplayName>
+      <IsRequired>true</IsRequired>
+      <QuestionContent>
+        <FormattedContent><![CDATA[
+          <p>I see myself as someone who...</p>
+          <p><b>Tends to find fault with others</b></p>
+        ]]></FormattedContent>
+      </QuestionContent>
+      <AnswerSpecification>
+        <SelectionAnswer>
+          <StyleSuggestion>radiobutton</StyleSuggestion>
+          <Selections>
+            <Selection>
+              <SelectionIdentifier>0</SelectionIdentifier>
+              <Text>[-2]: Strongly disagree</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>1</SelectionIdentifier>
+              <Text>[-1]: Disagree</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>2</SelectionIdentifier>
+              <Text>[0]: Neutral</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>3</SelectionIdentifier>
+              <Text>[1]: Agree</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>4</SelectionIdentifier>
+              <Text>[2]: Strongly agree</Text>
+            </Selection>
+          </Selections>
+        </SelectionAnswer>
+      </AnswerSpecification>
+  </Question>
+
+<Question>
+      <QuestionIdentifier>q_8</QuestionIdentifier>
+      <DisplayName>Q8</DisplayName>
+      <IsRequired>true</IsRequired>
+      <QuestionContent>
+        <FormattedContent><![CDATA[
+          <p>I see myself as someone who...</p>
+          <p><b>Is generally trusting</b></p>
+        ]]></FormattedContent>
+      </QuestionContent>
+      <AnswerSpecification>
+        <SelectionAnswer>
+          <StyleSuggestion>radiobutton</StyleSuggestion>
+          <Selections>
+            <Selection>
+              <SelectionIdentifier>0</SelectionIdentifier>
+              <Text>[-2]: Strongly disagree</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>1</SelectionIdentifier>
+              <Text>[-1]: Disagree</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>2</SelectionIdentifier>
+              <Text>[0]: Neutral</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>3</SelectionIdentifier>
+              <Text>[1]: Agree</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>4</SelectionIdentifier>
+              <Text>[2]: Strongly agree</Text>
+            </Selection>
+          </Selections>
+        </SelectionAnswer>
+      </AnswerSpecification>
+  </Question>
+
+<Question>
+      <QuestionIdentifier>q_9</QuestionIdentifier>
+      <DisplayName>Q9</DisplayName>
+      <IsRequired>true</IsRequired>
+      <QuestionContent>
+        <FormattedContent><![CDATA[
+          <p>I see myself as someone who...</p>
+          <p><b>Tends to be lazy</b></p>
+        ]]></FormattedContent>
+      </QuestionContent>
+      <AnswerSpecification>
+        <SelectionAnswer>
+          <StyleSuggestion>radiobutton</StyleSuggestion>
+          <Selections>
+            <Selection>
+              <SelectionIdentifier>0</SelectionIdentifier>
+              <Text>[-2]: Strongly disagree</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>1</SelectionIdentifier>
+              <Text>[-1]: Disagree</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>2</SelectionIdentifier>
+              <Text>[0]: Neutral</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>3</SelectionIdentifier>
+              <Text>[1]: Agree</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>4</SelectionIdentifier>
+              <Text>[2]: Strongly agree</Text>
+            </Selection>
+          </Selections>
+        </SelectionAnswer>
+      </AnswerSpecification>
+  </Question>
+
+<Question>
+      <QuestionIdentifier>q_10</QuestionIdentifier>
+      <DisplayName>Q10</DisplayName>
+      <IsRequired>true</IsRequired>
+      <QuestionContent>
+        <FormattedContent><![CDATA[
+          <p>I see myself as someone who...</p>
+          <p><b>Has an active imagination</b></p>
+        ]]></FormattedContent>
+      </QuestionContent>
+      <AnswerSpecification>
+        <SelectionAnswer>
+          <StyleSuggestion>radiobutton</StyleSuggestion>
+          <Selections>
+            <Selection>
+              <SelectionIdentifier>0</SelectionIdentifier>
+              <Text>[-2]: Strongly disagree</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>1</SelectionIdentifier>
+              <Text>[-1]: Disagree</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>2</SelectionIdentifier>
+              <Text>[0]: Neutral</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>3</SelectionIdentifier>
+              <Text>[1]: Agree</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>4</SelectionIdentifier>
+              <Text>[2]: Strongly agree</Text>
+            </Selection>
+          </Selections>
+        </SelectionAnswer>
+      </AnswerSpecification>
+  </Question>
+
+</QuestionForm>
