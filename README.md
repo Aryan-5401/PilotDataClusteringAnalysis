@@ -1,2 +1,2 @@
 # PilotDataClusteringAnalysis
-MTurk Pilot Data and Clustering Analysis Code and Plots for SALT Lab Codenames research project
+MTurk Pilot Data and Clustering and TF-IDF Analysis Code and Data for SALT Lab Codenames research project
